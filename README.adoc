@@ -25,9 +25,9 @@ endif::[]
 //------------------------------------ 
 ifdef::uk[]
 :lang: uk
-:lastName: LAST NAME
-:firstName: First Name
-:group: Group
+:lastName: Gaudron-Parry
+:firstName: Elliot
+:group: 1A
 :example: Example
 :Enseignants: Teachers
 :principe: Good design principle
