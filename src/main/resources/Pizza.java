@@ -10,12 +10,15 @@ public abstract class Pizza {
 	protected ArrayList garnitures;
 	
 	protected void prepare() {
-		// TODO Auto-generated method stub
-		
+		System.out.println("Preparation of Pizza "+this.name);
+		System.out.println("Add the sauce...\nAdd the garnitures :");
+		for(int i=0; i<this.garnitures.size();i++) {
+			System.out.println("   "+this.garnitures.get(i));
+		}
 	}
 
 	protected void bake() {
-		// TODO Auto-generated method stub
+	System.out.println("Bake 25 minutes at 180°");
 		
 	}
 
@@ -25,7 +28,7 @@ public abstract class Pizza {
 	}
 
 	protected void wrap() {
-		// TODO Auto-generated method stub
+		System.out.println("Put the Pizza in the official box");
 		
 	}
 	
